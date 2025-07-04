@@ -1,0 +1,24 @@
+{
+  "name": "zero-btn",
+  "version": "1.0.0",
+  "description": "A lightweight button micro-library for modern web apps.",
+  "main": "zero-btn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tooltip",
+    "button",
+    "micro-library",
+    "javascript",
+    "ui",
+    "frontend"
+  ],
+  "author": "Riyad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyad-96/zero-btn.git"
+  },
+  "homepage": "https://github.com/riyad-96/zero-btn#readme"
+}
