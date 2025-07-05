@@ -33,10 +33,10 @@
   max-width: 120px;
   background-color: var(--tooltip-bg-color);
   color: var(--tooltip-text-color);
-  border: 1px solid black;
   padding-block: 0.325rem;
   padding-inline: 0.625rem;
   border-radius: 4px;
+  box-shadow: 0 2px 6px hsla(235, 0%, 0%, 0.25);
 
   opacity: 0;
 
