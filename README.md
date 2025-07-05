@@ -5,6 +5,7 @@
 Current feature
 
 - Tooltip
+- Ripple effect on click
 
 ##### To install this package run:
 
@@ -14,15 +15,13 @@ npm install zero-btn
 
 > Use a modern build tool like **vite**, **webpack**, **Parcel**
 
-Direct use in the browser without a build tool will not work because of the import syntax for CSS.
-
 #### Usage
 
 ```javascript
-import { zeroTooltip } from 'zero-btn';
+import { zeroTooltip, zeroRipple } from 'zero-btn';
 ```
 
-#### API:
+#### zeroTooltip API:
 
 ```javascript
 zeroTooltip(selectors | element | NodeList, {
@@ -32,6 +31,14 @@ zeroTooltip(selectors | element | NodeList, {
 });
 ```
 
----
+#### zeroRipple API:
 
-This was my first npm package. I will try to implement some other usefull features in this package soon.
+```javascript
+zeroRipple(string | Element | NodeListOf<Element> | HTMLCollection, {
+    opacity: number;
+    duration: number;
+    color: string;
+    size: number | null;
+  }
+)
+```

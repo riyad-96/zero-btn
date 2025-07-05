@@ -1,4 +1,5 @@
-:root {
+/* ! Tooltip styles */
+/* :root {
   --tooltip-bg-color: hsl(0, 0%, 10%);
   --tooltip-text-color: hsl(0, 0%, 90%);
 }
@@ -10,8 +11,8 @@
   }
 }
 
-.buttons-tooltip,
-.buttons-tooltip-top {
+.zero-tooltip,
+.zero-tooltip-top {
   box-sizing: border-box;
   font-family: inherit;
   text-align: center;
@@ -37,13 +38,13 @@
   pointer-events: none;
 }
 
-.buttons-tooltip.show,
-.buttons-tooltip-top.show {
+.zero-tooltip.show,
+.zero-tooltip-top.show {
   opacity: 1;
 }
 
-.buttons-tooltip::before,
-.buttons-tooltip-top::before {
+.zero-tooltip::before,
+.zero-tooltip-top::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -56,16 +57,54 @@
   border-left: var(--border-size) solid transparent;
 }
 
-.buttons-tooltip::before {
+.zero-tooltip::before {
   top: 0;
   transform: translate(-50%, -100%);
   border-top: var(--border-size) solid transparent;
   border-bottom: var(--border-size) solid var(--tooltip-bg-color);
 }
 
-.buttons-tooltip-top::before {
+.zero-tooltip-top::before {
   top: 100%;
   transform: translate(-50%, 0);
   border-top: var(--border-size) solid var(--tooltip-bg-color);
   border-bottom: var(--border-size) solid transparent;
+} */
+
+/* ! Ripple styles */
+/* .zero-ripple {
+  position: relative;
+  overflow: hidden;
 }
+
+.zero-ripples {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background-color: var(--ripples-color);
+  z-index: 5;
+  border-radius: 50%;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.zero-ripples.expand {
+  animation: expand-ripple var(--ripples-duration) linear forwards;
+}
+
+@keyframes expand-ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: var(--ripples-opacity);
+  }
+  100% {
+    width: var(--ripples-size);
+    height: var(--ripples-size);
+    opacity: 0;
+  }
+} */
