@@ -1,6 +1,8 @@
 # zero-btn
 
-### A lightweight tool for buttons
+[![npm](https://img.shields.io/npm/v/zero-btn)](https://www.npmjs.com/package/zero-btn)
+
+## A lightweight tool for buttons
 
 Current feature
 
@@ -21,7 +23,7 @@ npm install zero-btn
 import { zeroTooltip, zeroRipple } from 'zero-btn';
 ```
 
-#### zeroTooltip API:
+##### zeroTooltip API:
 
 ```javascript
 zeroTooltip(selectors | element | NodeList, {
@@ -31,14 +33,44 @@ zeroTooltip(selectors | element | NodeList, {
 });
 ```
 
-#### zeroRipple API:
+##### zeroRipple API:
 
 ```javascript
-zeroRipple(string | Element | NodeListOf<Element> | HTMLCollection, {
-    opacity: number;
-    duration: number;
-    color: string;
-    size: number | null;
-  }
-)
+zeroRipple(selectors | element | NodeList, {
+  opacity: number;
+  duration: number;
+  color: string;
+  size: number | null;
+});
+```
+
+---
+
+### or use via cdn
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/zero-btn@1.1.2/zero-btn.min.js"></script>
+```
+
+#### Usage
+
+##### zeroTooltip:
+
+```javascript
+zeroBtn.zeroToolTip(selectors | element | NodeList, {
+  tooltip: string,
+  onTop: boolean,
+  offset: number,
+});
+```
+
+##### zeroRipple:
+
+```javascript
+zeroBtn.zeroRipple(selectors | element | NodeList, {
+  opacity: number;
+  duration: number;
+  color: string;
+  size: number | null;
+});
 ```
