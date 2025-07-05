@@ -49,7 +49,7 @@ zeroRipple(selectors | element | NodeList, {
 ### or use via cdn
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/zero-btn@1.1.3/zero-btn.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/zero-btn@1.1.4/zero-btn.min.js"></script>
 ```
 
 #### Usage
