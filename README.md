@@ -18,11 +18,6 @@ npm install zero-btn
 
 ```javascript
 import { zeroTooltip } from 'zero-btn';
-
-// Initialize on elements matching CSS selector
-zeroTooltip('.btn-with-tooltip', {
-  tooltip: 'Default tooltip text'
-});
 ```
 
 #### API:
