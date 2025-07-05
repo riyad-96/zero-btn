@@ -4,10 +4,21 @@
 
 ## A lightweight tool for buttons
 
-Current feature
+Current features
+- Copy on click
+- Tooltip on mouseover
+- Ripple effect on mousedown
 
-- Tooltip
-- Ripple effect on click
+***
+
+##### Quick usage overview
+
+| [NPM](#npm-usage) | [CDN](#use-via-cdn) |
+| -------- | -------- |
+| `zeroCopy()` | `zeroBtn.zeroCopy()` |
+| `zeroTooltip()` | `zeroBtn.zeroTooltip()` |
+| `zeroRipple()` | `zeroBtn.zeroRipple()` |
+
 
 ##### To install this package run:
 
@@ -15,13 +26,20 @@ Current feature
 npm install zero-btn
 ```
 
-> Use a modern build tool like **vite**, **webpack**, **Parcel**
-
-#### Usage
+#### NPM usage
 
 ```javascript
-import { zeroTooltip, zeroRipple } from 'zero-btn';
+import { zeroCopy, zeroTooltip, zeroRipple } from 'zero-btn';
 ```
+
+> Use a modern build tool like **vite**, **webpack**, **Parcel**
+
+##### zeroCopy API:
+
+```javascript
+zeroCopy(selector | element, doc);
+```
+> Instantly adds click-to-copy functionality to buttons, reliably and with fallback.
 
 ##### zeroTooltip API:
 
@@ -32,6 +50,7 @@ zeroTooltip(selectors | element | NodeList, {
   offset: number,
 });
 ```
+> Attach minimal tooltips to buttons for clean, helpful hover hints.
 
 ##### zeroRipple API:
 
@@ -43,18 +62,26 @@ zeroRipple(selectors | element | NodeList, {
   size: number | null;
 });
 ```
+> Adds a lightweight, clean ripple effect to your buttons on click.
 
 ---
 
-### or use via cdn
+### Use via cdn
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/zero-btn@1.1.4/zero-btn.min.js"></script>
 ```
+> Attach this script tag in the html head tag and you are good to go.
 
 #### Usage
 
-##### zeroTooltip:
+##### zeroCopy API:
+
+```javascript
+zeroBtn.zeroCopy(selectors | element, doc);
+```
+
+##### zeroTooltip API:
 
 ```javascript
 zeroBtn.zeroToolTip(selectors | element | NodeList, {
@@ -64,7 +91,7 @@ zeroBtn.zeroToolTip(selectors | element | NodeList, {
 });
 ```
 
-##### zeroRipple:
+##### zeroRipple API:
 
 ```javascript
 zeroBtn.zeroRipple(selectors | element | NodeList, {

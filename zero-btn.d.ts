@@ -37,3 +37,5 @@ export function zeroRipple(
     size?: number | null;
   }
 ): void;
+
+export function zeroCopy(element: string | Element | NodeListOf<Element>, docs: string): void;
