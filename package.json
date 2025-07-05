@@ -1,6 +1,6 @@
 {
   "name": "zero-btn",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "A lightweight button micro-library for modern web apps.",
   "main": "zero-btn.js",
   "module": "zero-btn.esm.js",
