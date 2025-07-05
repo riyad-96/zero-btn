@@ -1,6 +1,6 @@
 {
   "name": "zero-btn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight button micro-library for modern web apps.",
   "main": "zero-btn.js",
   "types": "zero-btn.d.ts",
