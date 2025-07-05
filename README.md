@@ -1,6 +1,6 @@
 # zero-btn
 
-### A lightweight package for buttons
+### A lightweight tool for buttons
 
 Current feature
 
