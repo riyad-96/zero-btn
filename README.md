@@ -1,5 +1,6 @@
 # zero-btn
-[![npm version](https://badge.fury.io/js/zero-btn.svg)](https://badge.fury.io/js/zero-btn) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/zero-btn.svg)](https://www.npmjs.com/package/zero-btn) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ### A lightweight package for buttons
 
