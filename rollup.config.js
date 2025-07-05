@@ -4,7 +4,7 @@ export default [
     output: {
       file: 'zero-btn.js',
       format: 'umd',
-      name: 'zero-btn',
+      name: 'zeroBtn',
     }
   },
   {
