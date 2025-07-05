@@ -1,6 +1,6 @@
 # zero-btn
-[![npm](https://img.shields.io/npm/v/zero-btn.svg)](https://www.npmjs.com/package/zero-btn) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![npm](https://img.shields.io/npm/v/zero-btn.svg)](https://www.npmjs.com/package/zero-btn) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### A lightweight package for buttons
 
@@ -13,6 +13,10 @@ Current feature
 ```bash
 npm install zero-btn
 ```
+
+> Use a modern build tool like **vite**, **webpack**, **Parcel**
+
+Direct use in the browser without a build tool will not work because of the import syntax for CSS.
 
 #### Usage
 
@@ -29,5 +33,7 @@ zeroTooltip(selectors | element | NodeList, {
   offset: number,
 });
 ```
-***
+
+---
+
 This was my first npm package. I will try to implement some other usefull features in this package soon.
