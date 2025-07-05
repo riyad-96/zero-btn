@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A lightweight button micro-library for modern web apps.",
   "main": "zero-btn.js",
+  "types": "zero-btn.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
