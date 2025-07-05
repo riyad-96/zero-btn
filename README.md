@@ -20,7 +20,7 @@ Current features
 | `zeroRipple()` | `zeroBtn.zeroRipple()` |
 
 
-##### To install this package run:
+### NPM install
 
 ```bash
 npm install zero-btn
@@ -67,13 +67,17 @@ zeroRipple(selectors | element | NodeList, {
 ---
 
 ### Use via cdn
-
 ```html
 <script src="https://cdn.jsdelivr.net/npm/zero-btn@1.2.0/zero-btn.min.js"></script>
 ```
 > Attach this script tag in the html head tag and you are good to go.
 
-#### Usage
+#### CDN usage
+```javascript
+zeroBtn.zeroCopy();
+zeroBtn.zeroTooltip();
+zeroBtn.zeroRipple();
+```
 
 ##### zeroCopy API:
 
